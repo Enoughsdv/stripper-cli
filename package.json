@@ -1,0 +1,46 @@
+{
+  "name": "stripper-cli",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool to recursively copy directories and remove comments from JavaScript and TypeScript files",
+  "main": "stripper-cli.js",
+  "bin": {
+    "stripper-cli": "stripper-cli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node stripper-cli"
+  },
+  "keywords": [
+    "javascript",
+    "typescript", 
+    "comments",
+    "strip",
+    "clean",
+    "cli",
+    "build-tools",
+    "preprocessing"
+  ],
+  "author": "@Enoughsdv",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enoughsdv/stripper-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enoughsdv/stripper-cli/issues"
+  },
+  "homepage": "https://github.com/enoughsdv/stripper-cli#readme",
+  "dependencies": {
+    "strip-comments": "^2.0.1"
+  },
+  "files": [
+    "stripper-cli",
+    "stripper-cli.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
